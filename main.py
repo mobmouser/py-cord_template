@@ -6,7 +6,7 @@ info = json.load(open("json/info.json", "r", encoding="utf-8_sig"))
 class Main(discord.Bot):
     def __init__(self):
         intents = discord.Intents.default()
-        intents.message_content = True
+        #intents.message_content = True
 
         super().__init__(
             intents=intents,
